@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Descubre Monda - Turismo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; font-family: 'Open Sans', sans-serif; color: #333; line-height: 1.6; }
+    header { background: #4CAF50; color: #fff; padding: 20px 10px; text-align: center; }
+    header h1 { margin: 0; font-family: 'Montserrat', sans-serif; font-size: 2.5rem; }
+    nav ul { list-style: none; padding: 0; margin: 0; display: flex; justify-content: center; flex-wrap: wrap; }
+    nav li { margin: 5px 10px; }
+    nav a { color: #fff; text-decoration: none; font-weight: bold; }
+    .hero { background: url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat; min-height: 40vh; display: flex; justify-content: center; align-items: center; color: white; text-shadow: 0 0 5px rgba(0,0,0,0.7); }
+    .hero h2 { font-size: 2.5rem; }
+    section { padding: 40px 20px; }
+    .attractions { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .card { background: #f7f7f7; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    footer { background: #333; color: #fff; text-align: center; padding: 20px; }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.8rem; }
+      .hero h2 { font-size: 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bienvenidos a Monda</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre Monda</a></li>
+        <li><a href="#atracciones">Atracciones</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="hero">
+    <h2>Un rincón con encanto en Málaga</h2>
+  </div>
+  <section id="sobre">
+    <h2>Sobre Monda</h2>
+    <p>Situada en la Sierra de las Nieves, Monda es un hermoso pueblo blanco que combina tradición y naturaleza. Recorre sus estrechas calles, descubre su castillo y disfruta de la hospitalidad de su gente.</p>
+  </section>
+  <section id="atracciones">
+    <h2>Atracciones principales</h2>
+    <div class="attractions">
+      <div class="card">
+        <h3>Castillo de Monda</h3>
+        <p>Un castillo histórico convertido en hotel que ofrece vistas panorámicas del valle.</p>
+      </div>
+      <div class="card">
+        <h3>Ruta de senderismo</h3>
+        <p>Explora la belleza natural de la Sierra de las Nieves a través de diversas rutas.</p>
+      </div>
+      <div class="card">
+        <h3>Fiestas y cultura</h3>
+        <p>Vive la alegría de nuestras ferias y la riqueza de nuestra cultura local.</p>
+      </div>
+    </div>
+  </section>
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Para más información, visita el Ayuntamiento de Monda o llama al 123 456 789.</p>
+  </section>
+  <footer>
+    <p>&copy; 2023 Turismo Monda</p>
+  </footer>
+</body>
+</html>
